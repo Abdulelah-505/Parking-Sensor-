@@ -47,14 +47,3 @@ void loop() {
        Serial.print(" save distance ");
       }
 }
-
-
-
-
-num = [6];
-denum = [4 2 3.31];
-G=tf(num , denom)
-step(G)
-
-
-PLOG(G)
